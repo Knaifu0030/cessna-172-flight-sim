@@ -4,3 +4,8 @@ node_modules/
 shots/
 test-results/
 .env*
+.hermes/
+**/.env
+**/.env.*
+**/credentials.json
+*.log

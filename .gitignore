@@ -6,3 +6,4 @@ node_modules/
 shots/
 test-results/
 __pycache__/
+.vercel
