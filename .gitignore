@@ -1,0 +1,8 @@
+node_modules/
+.vercel/
+.agents/
+.env*
+!.env.example
+shots/
+test-results/
+__pycache__/

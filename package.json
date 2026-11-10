@@ -1,0 +1,16 @@
+{
+  "name": "cessna-172-flight-sim",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cessna 172S browser flight simulator at Coimbatore (VOCB)",
+  "scripts": {
+    "build": "python3 build.py",
+    "start": "python3 -m http.server 8080 --directory dist",
+    "test": "node tests/flight_model_check.js",
+    "test:browser": "node tests/smoke.js"
+  },
+  "devDependencies": {
+    "three": "0.128.0",
+    "playwright": "1.58.2"
+  }
+}
